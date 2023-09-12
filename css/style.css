@@ -96,6 +96,7 @@ body {
 }
 
 .header__video {
+    box-shadow: 0 0 3rem rgb(94, 94, 94);
     position: absolute;
     top: 76%;
     left: 50%;
