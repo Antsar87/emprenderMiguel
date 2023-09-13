@@ -133,6 +133,7 @@ body {
 }
 @media (max-width: 600px) {
   .header__video {
+  box-shadow: 0 0 3rem transparent;
     top: 60%;
     background: transparent;
   }
@@ -161,7 +162,7 @@ body {
 }
 @media (max-width: 20em) {
   .questions {
-    maring-top: 0;
+    margin-top: 0;
   }
 }
 
