@@ -1,0 +1,386 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50%;
+}
+@media (min-width: 56.25em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+/* UTILITIES */
+.container-large {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  padding: 0.8rem 6rem 0.8rem 6rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.button-dark-blue {
+  background: #407BBF;
+  color: #FFFFFF;
+}
+
+.color-light-blue {
+  color: #326FB4;
+  font-size: 1.6rem;
+}
+
+/* HEADER */
+.header {
+  clip-path: polygon(50% 0%, 100% 0, 100% 30%, 50% 100%, 0 30%, 0 0);
+  background: #1D4E88;
+  color: #FFFFFF;
+  height: 80vh;
+  margin-bottom: -6rem;
+}
+@media (max-width: 61.25em) {
+  .header {
+    clip-path: polygon(50% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    clip-path: none;
+  }
+}
+
+.header__position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 40vh;
+  max-width: 90rem;
+  padding: 0 2rem;
+}
+
+.header__position-title {
+  font-size: 4.5rem;
+}
+@media (max-width: 28.875em) {
+  .header__position-title {
+    font-size: 3.5rem;
+    padding: 5rem 0 0 0;
+  }
+}
+@media (max-width: 20.4375em) {
+  .header__position-title {
+    font-size: 2.7rem;
+  }
+}
+
+.header__position-subtitle {
+  font-weight: light;
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+@media (max-width: 20.4375em) {
+  .header__position-subtitle {
+    font-size: 2rem;
+  }
+}
+
+.header__video {
+  box-shadow: 0 0 3rem rgb(94, 94, 94);
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF;
+  padding: 2.5rem;
+  border-radius: 3rem;
+  width: 100%;
+  max-width: 75rem;
+  height: auto;
+}
+@media (max-width: 61.25em) {
+  .header__video {
+    top: 78%;
+  }
+}
+@media (max-width: 56.1875em) {
+  .header__video {
+    top: 67%;
+  }
+}
+@media (max-width: 43.125em) {
+  .header__video {
+    top: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .header__video {
+    top: 60%;
+    background: transparent;
+  }
+}
+
+/* Sección "Te Interesa" */
+.questions {
+  background: rgba(121, 169, 219, 0.3019607843);
+  margin-top: 30rem;
+  padding: 3rem;
+}
+@media (max-width: 56.1875em) {
+  .questions {
+    margin-top: 25rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .questions {
+    margin-top: 20rem;
+  }
+}
+@media (max-width: 29.375em) {
+  .questions {
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 20em) {
+  .questions {
+    maring-top: 0;
+  }
+}
+
+.questions__subject {
+  margin: 0 auto 3rem auto;
+  text-align: center;
+  max-width: 60rem;
+}
+
+.questions__title {
+  font-size: 2.4rem;
+  color: #2465AF;
+}
+
+.questions__subtitle {
+  font-size: 1.7rem;
+  color: #2465AF;
+}
+
+.questions__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.questions__card {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  text-align: center;
+  color: #1D4E88;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+/* Sección "Negocio Inteligente"  */
+.negocio-inteligente__cards {
+  margin-bottom: 2rem;
+  max-width: 100rem;
+  margin: 0 auto !important;
+  row-gap: 1.6rem;
+}
+
+.negocio-inteligente__card {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 0.2rem 2rem 0.4rem rgba(64, 123, 191, 0.25);
+  border-radius: 5rem;
+  padding: 1rem;
+  color: #407BBF;
+  font-weight: 400;
+  gap: 2rem;
+}
+
+.negocio-inteligente__card-p {
+  font-size: 2rem;
+}
+
+.negocio-inteligente__card-icon {
+  max-width: 7rem;
+}
+
+.negocio-inteligente__titulo {
+  max-width: 40rem;
+  margin: 2.5rem auto;
+  color: #2465AF;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+/* Sección "Negocio Inteligente" 2 */
+.negocio-inteligente-features {
+  background: rgba(121, 169, 219, 0.1019607843);
+  padding-bottom: 6rem;
+}
+
+.negocio-inteligente-features__cards {
+  margin-bottom: 2rem;
+  max-width: 100rem;
+  margin: 0 auto !important;
+  row-gap: 1.6rem;
+}
+
+.negocio-inteligente-features__card {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 0.4rem 1.6rem 0 rgba(36, 101, 175, 0.15);
+  border-radius: 2.4rem;
+  padding: 1rem;
+  color: #1D4E88;
+  font-weight: 400;
+  gap: 2rem;
+  height: 15rem;
+}
+
+.negocio-inteligente-features__card-p {
+  font-size: 2rem;
+}
+
+.negocio-inteligente-features__card-icon {
+  max-width: 7rem;
+}
+
+.negocio-inteligente-features__titulo {
+  max-width: 40rem;
+  margin: 2.5rem auto;
+  color: #2465AF;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+
+/* MIGUEL CALVO SECTION */
+.miguel-biography__position {
+  display: flex;
+  gap: 6rem;
+}
+@media (max-width: 43.75em) {
+  .miguel-biography__position {
+    flex-direction: column;
+  }
+}
+
+.miguel-biography__background {
+  background: #1D4E88;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-basis: 40rem;
+  flex: 1;
+}
+@media (max-width: 43.75em) {
+  .miguel-biography__background {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+}
+
+.miguel-biography__image {
+  width: 36rem;
+  height: 36rem;
+  transform: translateX(4rem);
+}
+@media (max-width: 43.75em) {
+  .miguel-biography__image {
+    transform: translateX(0);
+    max-width: 100%;
+  }
+}
+
+.miguel-biography__img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 43.75em) {
+  .miguel-biography__img {
+    object-fit: contain;
+  }
+}
+
+.miguel-biography__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 2.5rem;
+  flex: 2;
+}
+@media (max-width: 43.75em) {
+  .miguel-biography__content {
+    padding: 0 1.5rem;
+  }
+}
+
+.miguel-biography__title {
+  font-size: 4rem;
+  color: #2465AF;
+  font-weight: bold;
+}
+
+.miguel-biography__history {
+  font-size: 1.8rem;
+  max-width: 65rem;
+  color: #2465AF;
+}
+
+.miguel-biography__companies {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 21.875em) {
+  .miguel-biography__companies {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.miguel-biography__companies-image {
+  max-width: 15.676rem;
+  margin: 0 auto 1.5rem auto;
+}
+
+.miguel-biography__companies-img {
+  width: 100%;
+  height: 100%;
+}
+
+.miguel-biography__p {
+  color: #326FB4;
+  font-size: 1.8rem;
+}
+@media (max-width: 21.875em) {
+  .miguel-biography__p {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
