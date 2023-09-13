@@ -1,420 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emprenya</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- HEADER SECTION -->
     <header class="header">
-        <div class="header__position container-large">
-            <h1 class="header__position-title">Prelanzamiento de la empresa de venta directa que revolucionará el 2024
-            </h1>
+      <div class="header__position container-large">
+        <h1 class="header__position-title">
+          Prelanzamiento de la empresa de venta directa que revolucionará el
+          2024
+        </h1>
 
-            <h2 class="header__position-subtitle">el Negocio inteligente que Revolucionará Tu Trayectoria</h2>
-        </div>
+        <h2 class="header__position-subtitle">
+          el Negocio inteligente que Revolucionará Tu Trayectoria
+        </h2>
+      </div>
     </header>
 
     <section class="header__video">
-        <iframe loading="lazy" decoding="async" title="Asiste a la formación" id="deferediframe"
-            src="https://player.vimeo.com/video/696038438?h=d4aa48a81a&color=0068DE&title=0&byline=0&portrait=0"
-            width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen=""
-            mozallowfullscreen="" allowfullscreen="" style="aspect-ratio: 16/9">
-        </iframe>
+      <iframe
+        loading="lazy"
+        decoding="async"
+        title="Asiste a la formación"
+        id="deferediframe"
+        src="https://player.vimeo.com/video/696038438?h=d4aa48a81a&color=0068DE&title=0&byline=0&portrait=0"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        webkitallowfullscreen=""
+        mozallowfullscreen=""
+        allowfullscreen=""
+        style="aspect-ratio: 16/9"
+        class="header__videoIframe"
+      >
+      </iframe>
+
+      <div class="text-center pt-5">
+        <a href="#" class="button button-dark-blue">¡Regístrate Gratis!</a>
+      </div>
     </section>
 
     <!-- "Te Interesa" SECTION -->
-    <section class="questions">
-        <div class="container-large">
-            <div class="questions__subject">
-                <h2 class="questions__title">Esto te interesa sí...</h2>
-                <p class="questions__subtitle mt-5">Yo también me hacía la misma pregunta, y tras encontrar una
-                    respuesta, <span class="fw-bold">quiero compartir contigo lo que he aprendido.</span></p>
-            </div>
-
-            <div class="row questions__cards">
-                <div class="col-md-3 mb-md-0 mb-5">
-                    <div class="questions__card">
-                        <div>
-                            <img class="mb-2" src="img/question-1.png" loading="lazy" decoding="async" alt="">
-                        </div>
-                        <p class="fs-4">¿Estás en una empresa de venta directa y no estás teniendo los resultados que
-                            deseas?</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 mb-md-0 mb-5">
-                    <div class="questions__card">
-                        <div>
-                            <img class="mb-2" src="img/question-2.png" loading="lazy" decoding="async" alt="">
-                        </div>
-                        <p class="fs-4">¿Estás cansado de los precios desorbitantes de los productos de tu empresa?</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 mb-md-0 mb-5">
-                    <div class="questions__card">
-                        <div>
-                            <img class="mb-2" src="img/question-3.png" loading="lazy" decoding="async" alt="">
-                        </div>
-                        <p class="fs-4">¿Estás cansado de que la única forma de obtener ventas es con tus amigos,
-                            familiares y haciendo puerta fría?</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="questions__card">
-                        <div>
-                            <img class="mb-2" src="img/question-4.png" loading="lazy" decoding="async" alt="">
-                        </div>
-                        <p class="fs-4">¿Quieres emprender en un negocio real, tangible y con futuro?</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center pt-5">
-                <a href="#" class="button button-dark-blue">¡Regístrate Gratis!</a>
-            </div>
+    <section class="questions mt-30">
+      <div class="container-large">
+        <div class="questions__subject">
+          <h2 class="questions__title">Esto te interesa sí...</h2>
+          <p class="questions__subtitle mt-5">
+            Yo también me hacía la misma pregunta, y tras encontrar una
+            respuesta,
+            <span class="fw-bold"
+              >quiero compartir contigo lo que he aprendido.</span
+            >
+          </p>
         </div>
+
+        <div class="row questions__cards">
+          <div class="col-md-3 mb-md-0 mb-5">
+            <div class="questions__card">
+              <div>
+                <img
+                  class="mb-2"
+                  src="img/question-1.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+              <p class="fs-4">
+                ¿Estás en una empresa de venta directa y no estás teniendo los
+                resultados que deseas?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-5">
+            <div class="questions__card">
+              <div>
+                <img
+                  class="mb-2"
+                  src="img/question-2.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+              <p class="fs-4">
+                ¿Estás cansado de los precios desorbitantes de los productos de
+                tu empresa?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-5">
+            <div class="questions__card">
+              <div>
+                <img
+                  class="mb-2"
+                  src="img/question-3.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+              <p class="fs-4">
+                ¿Estás cansado de que la única forma de obtener ventas es con
+                tus amigos, familiares y haciendo puerta fría?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="questions__card">
+              <div>
+                <img
+                  class="mb-2"
+                  src="img/question-4.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+              <p class="fs-4">
+                ¿Quieres emprender en un negocio real, tangible y con futuro?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center pt-5">
+          <a href="#" class="button button-dark-blue">¡Regístrate Gratis!</a>
+        </div>
+      </div>
     </section>
 
     <!-- "Negocio Inteligente" 1 SECTION -->
     <section class="negocio-inteligente">
-        <div class="container-large">
-            <div class="text-center py-5">
-                <h2 class="negocio-inteligente__titulo">Te presentamos el negocio inteligente</h2>
-            </div>
-
-            <div class="row gx-0 negocio-inteligente__cards">
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente__card">
-                        <div>
-                            <img class="negocio-inteligente__card-icon" src="img/negocio-1.png" loading="lazy"
-                                decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente__card-p">
-                                <span class="d-inline d-md-block">Calidad inigualable en</span>
-                                <span class="d-inline d-md-block">productos y servicios</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente__card">
-                        <div>
-                            <img class="negocio-inteligente__card-icon" src="img/negocio-2.png" loading="lazy"
-                                decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente__card-p">
-                                <span class="d-inline d-md-block">Reparto de más del 65% en</span>
-                                <span class="d-inline d-md-block">comisiones, bonos y viajes</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente__card">
-                        <div>
-                            <img class="negocio-inteligente__card-icon" src="img/negocio-3.png" loading="lazy"
-                                decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente__card-p">
-                                <span class="d-inline d-md-block">Fácil acceso para los</span>
-                                <span class="d-inline d-md-block">emprendedores</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente__card">
-                        <div>
-                            <img class="negocio-inteligente__card-icon" src="img/negocio-4.png" loading="lazy"
-                                decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente__card-p">
-                                <span class="d-inline d-md-block">Precios competitivos, reales y</span>
-                                <span class="d-inline d-md-block">accesibles al mercado</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente__card">
-                        <div>
-                            <img class="negocio-inteligente__card-icon" src="img/negocio-5.png" loading="lazy"
-                                decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente__card-p">
-                                <span class="d-inline d-md-block">Sistema de trabajo integral y</span>
-                                <span class="d-inline d-md-block">acompañamiento</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente__card">
-                        <div>
-                            <img class="negocio-inteligente__card-icon" loading="lazy" decoding="async"
-                                src="img/negocio-6.png" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente__card-p">
-                                <span class="d-inline d-md-block">Diversidad empresarial con</span>
-                                <span class="d-inline d-md-block">cinco líneas de negocio</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center py-5">
-                <a href="#" class="button button-dark-blue">¡Regístrate Gratis!</a>
-            </div>
+      <div class="container-large">
+        <div class="text-center py-5">
+          <h2 class="negocio-inteligente__titulo">
+            Te presentamos el negocio inteligente
+          </h2>
         </div>
+
+        <div class="row gx-0 negocio-inteligente__cards">
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente__card">
+              <div>
+                <img
+                  class="negocio-inteligente__card-icon"
+                  src="img/negocio-1.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente__card-p">
+                  <span class="d-inline d-md-block"
+                    >Calidad inigualable en</span
+                  >
+                  <span class="d-inline d-md-block">productos y servicios</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente__card">
+              <div>
+                <img
+                  class="negocio-inteligente__card-icon"
+                  src="img/negocio-2.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente__card-p">
+                  <span class="d-inline d-md-block"
+                    >Reparto de más del 65% en</span
+                  >
+                  <span class="d-inline d-md-block"
+                    >comisiones, bonos y viajes</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente__card">
+              <div>
+                <img
+                  class="negocio-inteligente__card-icon"
+                  src="img/negocio-3.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente__card-p">
+                  <span class="d-inline d-md-block">Fácil acceso para los</span>
+                  <span class="d-inline d-md-block">emprendedores</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente__card">
+              <div>
+                <img
+                  class="negocio-inteligente__card-icon"
+                  src="img/negocio-4.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente__card-p">
+                  <span class="d-inline d-md-block"
+                    >Precios competitivos, reales y</span
+                  >
+                  <span class="d-inline d-md-block">accesibles al mercado</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente__card">
+              <div>
+                <img
+                  class="negocio-inteligente__card-icon"
+                  src="img/negocio-5.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente__card-p">
+                  <span class="d-inline d-md-block"
+                    >Sistema de trabajo integral y</span
+                  >
+                  <span class="d-inline d-md-block">acompañamiento</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente__card">
+              <div>
+                <img
+                  class="negocio-inteligente__card-icon"
+                  loading="lazy"
+                  decoding="async"
+                  src="img/negocio-6.png"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente__card-p">
+                  <span class="d-inline d-md-block"
+                    >Diversidad empresarial con</span
+                  >
+                  <span class="d-inline d-md-block"
+                    >cinco líneas de negocio</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center py-5">
+          <a href="#" class="button button-dark-blue">¡Regístrate Gratis!</a>
+        </div>
+      </div>
     </section>
 
     <!-- "Negocio Inteligente" 2 SECTION -->
     <section class="negocio-inteligente-features">
-        <div class="container-large">
-            <div class="text-center py-5">
-                <h2 class="negocio-inteligente-features__titulo">Te presentamos el negocio inteligente</h2>
-            </div>
-
-            <div class="row gx-0 negocio-inteligente-features__cards">
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente-features__card">
-                        <div>
-                            <img class="negocio-inteligente-features__card-icon" src="img/negocio-feature-1.png"
-                                loading="lazy" decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente-features__card-p">
-                                <span class="d-inline d-md-block">Más de 1 millón de euros</span>
-                                <span class="d-inline d-md-block">invertidos para lanzar la</span>
-                                <span class="d-inline d-md-block">empresa.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente-features__card">
-                        <div>
-                            <img class="negocio-inteligente-features__card-icon" src="img/negocio-feature-2.png"
-                                loading="lazy" decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente-features__card-p">
-                                <span class="d-inline d-md-block">Sistema único y propio de</span>
-                                <span class="d-inline d-md-block">formación.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente-features__card">
-                        <div>
-                            <img class="negocio-inteligente-features__card-icon" src="img/negocio-feature-3.png"
-                                loading="lazy" decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente-features__card-p">
-                                <span class="d-inline d-md-block">Solvencia económica y</span>
-                                <span class="d-inline d-md-block">estabilidad financiera.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente-features__card">
-                        <div>
-                            <img class="negocio-inteligente-features__card-icon" src="img/negocio-feature-4.png"
-                                loading="lazy" decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente-features__card-p">
-                                <span class="d-inline d-md-block">Creadores de nuestra</span>
-                                <span class="d-inline d-md-block">propia tecnología</span>
-                                <span class="d-inline d-md-block">(softwares y apps)</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente-features__card">
-                        <div>
-                            <img class="negocio-inteligente-features__card-icon" src="img/negocio-feature-5.png"
-                                loading="lazy" decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente-features__card-p">
-                                <span class="d-inline d-md-block">Oportunidad de liderazgo y</span>
-                                <span class="d-inline d-md-block">crecimiento rápido.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 px-5">
-                    <div class="negocio-inteligente-features__card">
-                        <div>
-                            <img class="negocio-inteligente-features__card-icon" src="img/negocio-feature-6.png"
-                                loading="lazy" decoding="async" alt="">
-                        </div>
-
-                        <div>
-                            <p class="negocio-inteligente-features__card-p">
-                                <span class="d-inline d-md-block">El proyecto más innovador</span>
-                                <span class="d-inline d-md-block">en la actualidad.</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container-large">
+        <div class="text-center py-5">
+          <h2 class="negocio-inteligente-features__titulo">
+            Te presentamos el negocio inteligente
+          </h2>
         </div>
+
+        <div class="row gx-0 negocio-inteligente-features__cards">
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente-features__card">
+              <div>
+                <img
+                  class="negocio-inteligente-features__card-icon"
+                  src="img/negocio-feature-1.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente-features__card-p">
+                  <span class="d-inline d-md-block"
+                    >Más de 1 millón de euros</span
+                  >
+                  <span class="d-inline d-md-block"
+                    >invertidos para lanzar la</span
+                  >
+                  <span class="d-inline d-md-block">empresa.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente-features__card">
+              <div>
+                <img
+                  class="negocio-inteligente-features__card-icon"
+                  src="img/negocio-feature-2.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente-features__card-p">
+                  <span class="d-inline d-md-block"
+                    >Sistema único y propio de</span
+                  >
+                  <span class="d-inline d-md-block">formación.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente-features__card">
+              <div>
+                <img
+                  class="negocio-inteligente-features__card-icon"
+                  src="img/negocio-feature-3.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente-features__card-p">
+                  <span class="d-inline d-md-block">Solvencia económica y</span>
+                  <span class="d-inline d-md-block"
+                    >estabilidad financiera.</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente-features__card">
+              <div>
+                <img
+                  class="negocio-inteligente-features__card-icon"
+                  src="img/negocio-feature-4.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente-features__card-p">
+                  <span class="d-inline d-md-block">Creadores de nuestra</span>
+                  <span class="d-inline d-md-block">propia tecnología</span>
+                  <span class="d-inline d-md-block">(softwares y apps)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente-features__card">
+              <div>
+                <img
+                  class="negocio-inteligente-features__card-icon"
+                  src="img/negocio-feature-5.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente-features__card-p">
+                  <span class="d-inline d-md-block"
+                    >Oportunidad de liderazgo y</span
+                  >
+                  <span class="d-inline d-md-block">crecimiento rápido.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 px-5">
+            <div class="negocio-inteligente-features__card">
+              <div>
+                <img
+                  class="negocio-inteligente-features__card-icon"
+                  src="img/negocio-feature-6.png"
+                  loading="lazy"
+                  decoding="async"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <p class="negocio-inteligente-features__card-p">
+                  <span class="d-inline d-md-block"
+                    >El proyecto más innovador</span
+                  >
+                  <span class="d-inline d-md-block">en la actualidad.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- "Miguel Calvo" SECTION -->
     <main class="miguel-biography">
-        <div class="gx-0 miguel-biography__position">
-            <div class="miguel-biography__background">
-                <div class="miguel-biography__image">
-                    <img class="miguel-biography__img" src="img/miguel.png" loading="lazy" decoding="async" alt="">
-                </div>
-            </div>
-
-            <div class="miguel-biography__content align-items-center align-items-md-start">
-                <h2 class="miguel-biography__title">¿Quién es Miguel Calvo?</h2>
-
-                <p class="miguel-biography__history py-4">
-                    Miguel tiene más de <span class="fw-bold">10 años de experiencia</span> dirigiendo y asesorando a
-                    <span class="fw-bold">empresas de venta directa</span>. Por sus manos han
-                    pasado más de <span class="fw-bold">160 empresas</span> de venta directa. Fue el <span
-                        class="fw-bold">fundador
-                        más joven</span> de la historia de España creando su venta
-                    directa a la edad de tan solo 21 años.
-                </p>
-
-                <p class="miguel-biography__p">
-                    Fundador y CEO de los siguientes proyectos:
-                </p>
-
-                <div class="miguel-biography__companies pt-2">
-
-                    <article class="me-sm-5 me-0 mb-sm-0 mb-5">
-                        <div class="mb-5">
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-1.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Consultora de desarrollo de software)</h2>
-                        </div>
-
-                        <div class="mb-5">
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-2.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Software gestión de empresas venta directa)</h2>
-                        </div>
-
-                        <div class="mb-5">
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-3.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Software de embudos de venta)</h2>
-                        </div>
-
-                        <div>
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-4.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Lanzamiento y escalar empresas)</h2>
-                        </div>
-                    </article>
-
-                    <article>
-                        <div class="mb-5">
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-5.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(La revolución del emprendimiento)</h2>
-                        </div>
-
-                        <div class="mb-5">
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-6.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Software automatizaciones de email marketing)</h2>
-                        </div>
-
-                        <div class="mb-5">
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-7.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Consultora blockchain)</h2>
-                        </div>
-
-                        <div>
-                            <div class="miguel-biography__companies-image">
-                                <img class="miguel-biography__companies-img" src="img/companie-8.png" loading="lazy"
-                                    decoding="async" alt="">
-                            </div>
-
-                            <h2 class="fw-light color-light-blue">(Formación en ventas)</h2>
-                        </div>
-                    </article>
-                </div>
-
-                <p class="miguel-biography__p pt-5">
-                    Asesor y consultor de más de 160 empresas de venta directa
-                </p>
-            </div>
+      <div class="gx-0 miguel-biography__position">
+        <div class="miguel-biography__background">
+          <div class="miguel-biography__image">
+            <img
+              class="miguel-biography__img"
+              src="img/miguel.png"
+              loading="lazy"
+              decoding="async"
+              alt=""
+            />
+          </div>
         </div>
-    </main>
-</body>
 
+        <div
+          class="miguel-biography__content align-items-center align-items-md-start"
+        >
+          <h2 class="miguel-biography__title">¿Quién es Miguel Calvo?</h2>
+
+          <p class="miguel-biography__history py-4">
+            Miguel tiene más de
+            <span class="fw-bold">10 años de experiencia</span> dirigiendo y
+            asesorando a <span class="fw-bold">empresas de venta directa</span>.
+            Por sus manos han pasado más de
+            <span class="fw-bold">160 empresas</span> de venta directa. Fue el
+            <span class="fw-bold">fundador más joven</span> de la historia de
+            España creando su venta directa a la edad de tan solo 21 años.
+          </p>
+
+          <p class="miguel-biography__p">
+            Fundador y CEO de los siguientes proyectos:
+          </p>
+
+          <div class="miguel-biography__companies pt-2">
+            <article class="me-sm-5 me-0 mb-sm-0 mb-5">
+              <div class="mb-5">
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-1.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (Consultora de desarrollo de software)
+                </h2>
+              </div>
+
+              <div class="mb-5">
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-2.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (Software gestión de empresas venta directa)
+                </h2>
+              </div>
+
+              <div class="mb-5">
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-3.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (Software de embudos de venta)
+                </h2>
+              </div>
+
+              <div>
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-4.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (Lanzamiento y escalar empresas)
+                </h2>
+              </div>
+            </article>
+
+            <article>
+              <div class="mb-5">
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-5.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (La revolución del emprendimiento)
+                </h2>
+              </div>
+
+              <div class="mb-5">
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-6.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (Software automatizaciones de email marketing)
+                </h2>
+              </div>
+
+              <div class="mb-5">
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-7.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">
+                  (Consultora blockchain)
+                </h2>
+              </div>
+
+              <div>
+                <div class="miguel-biography__companies-image">
+                  <img
+                    class="miguel-biography__companies-img"
+                    src="img/companie-8.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt=""
+                  />
+                </div>
+
+                <h2 class="fw-light color-light-blue">(Formación en ventas)</h2>
+              </div>
+            </article>
+          </div>
+
+          <p class="miguel-biography__p pt-5">
+            Asesor y consultor de más de 160 empresas de venta directa
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

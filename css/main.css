@@ -31,27 +31,29 @@ body {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 2rem;
-  padding: 0.8rem 6rem 0.8rem 6rem;
+  border-radius: 1rem;
+  /* padding: 0.8rem 6rem 0.8rem 6rem; */
+  padding: 1rem 4rem;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
 }
 
 .button-dark-blue {
-  background: #407BBF;
-  color: #FFFFFF;
+  background: #407bbf;
+  color: #ffffff;
 }
 
 .color-light-blue {
-  color: #326FB4;
+  color: #326fb4;
   font-size: 1.6rem;
 }
 
 /* HEADER */
 .header {
   clip-path: polygon(50% 0%, 100% 0, 100% 30%, 50% 100%, 0 30%, 0 0);
-  background: #1D4E88;
-  color: #FFFFFF;
+  background: #1d4e88;
+  color: #ffffff;
   height: 80vh;
   margin-bottom: -6rem;
 }
@@ -104,14 +106,10 @@ body {
 }
 
 .header__video {
-  box-shadow: 0 0 3rem rgb(94, 94, 94);
   position: absolute;
   top: 76%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #FFFFFF;
-  padding: 2.5rem;
-  border-radius: 3rem;
   width: 100%;
   max-width: 75rem;
   height: auto;
@@ -133,17 +131,36 @@ body {
 }
 @media (max-width: 600px) {
   .header__video {
-  box-shadow: 0 0 3rem transparent;
+    box-shadow: 0 0 3rem transparent;
     top: 60%;
     background: transparent;
   }
 }
 
+.header__videoIframe {
+  box-shadow: 0 0 3rem rgb(94, 94, 94);
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 3rem;
+}
+
+@media (max-width: 600px) {
+  .header__videoIframe {
+    padding: 1rem .5rem;
+    box-shadow: 0 0 3rem transparent;
+    background: transparent;
+  }
+}
+
 /* Sección "Te Interesa" */
+.mt-30 {
+  margin-top: 40rem;
+}
+
 .questions {
-  background: rgba(121, 169, 219, 0.3019607843);
-  margin-top: 30rem;
+  background: rgba(121, 169, 219, 0.3);
   padding: 3rem;
+  /* margin-top: 5rem; */
 }
 @media (max-width: 56.1875em) {
   .questions {
@@ -160,9 +177,9 @@ body {
     margin-top: 15rem;
   }
 }
-@media (max-width: 20em) {
+@media (max-width: 24.68em) {
   .questions {
-    margin-top: 0;
+    margin-top: 6rem;
   }
 }
 
@@ -174,12 +191,12 @@ body {
 
 .questions__title {
   font-size: 2.4rem;
-  color: #2465AF;
+  color: #2465af;
 }
 
 .questions__subtitle {
   font-size: 1.7rem;
-  color: #2465AF;
+  color: #2465af;
 }
 
 .questions__cards {
@@ -189,10 +206,10 @@ body {
 }
 
 .questions__card {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 1rem;
   text-align: center;
-  color: #1D4E88;
+  color: #1d4e88;
   height: 25rem;
   display: flex;
   flex-direction: column;
@@ -212,11 +229,11 @@ body {
 .negocio-inteligente__card {
   display: flex;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 0.2rem 2rem 0.4rem rgba(64, 123, 191, 0.25);
   border-radius: 5rem;
   padding: 1rem;
-  color: #407BBF;
+  color: #407bbf;
   font-weight: 400;
   gap: 2rem;
 }
@@ -232,7 +249,7 @@ body {
 .negocio-inteligente__titulo {
   max-width: 40rem;
   margin: 2.5rem auto;
-  color: #2465AF;
+  color: #2465af;
   font-weight: bold;
   font-size: 2.8rem;
 }
@@ -253,11 +270,11 @@ body {
 .negocio-inteligente-features__card {
   display: flex;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 0.4rem 1.6rem 0 rgba(36, 101, 175, 0.15);
   border-radius: 2.4rem;
   padding: 1rem;
-  color: #1D4E88;
+  color: #1d4e88;
   font-weight: 400;
   gap: 2rem;
   height: 15rem;
@@ -274,7 +291,7 @@ body {
 .negocio-inteligente-features__titulo {
   max-width: 40rem;
   margin: 2.5rem auto;
-  color: #2465AF;
+  color: #2465af;
   font-weight: bold;
   font-size: 2.8rem;
 }
@@ -291,7 +308,7 @@ body {
 }
 
 .miguel-biography__background {
-  background: #1D4E88;
+  background: #1d4e88;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -342,14 +359,14 @@ body {
 
 .miguel-biography__title {
   font-size: 4rem;
-  color: #2465AF;
+  color: #2465af;
   font-weight: bold;
 }
 
 .miguel-biography__history {
   font-size: 1.8rem;
   max-width: 65rem;
-  color: #2465AF;
+  color: #2465af;
 }
 
 .miguel-biography__companies {
@@ -375,7 +392,7 @@ body {
 }
 
 .miguel-biography__p {
-  color: #326FB4;
+  color: #326fb4;
   font-size: 1.8rem;
 }
 @media (max-width: 21.875em) {
