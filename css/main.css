@@ -101,6 +101,10 @@ body {
 .header__position-title {
   font-size: 4.5rem;
 }
+
+.header__position-title--sm {
+  font-size: 3.5rem;
+}
 /* @media (max-width: 390px) {
   .header__position-title {
     font-size: 4rem;
