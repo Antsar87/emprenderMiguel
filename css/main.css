@@ -439,6 +439,12 @@ body {
   }
 }
 
+.bg-patrocinador {
+  border-radius: 1rem;
+  border: 1px solid #2e64ae66;
+  background-color: #2465af0d;
+}
+
 .bg {
   background: url('../img/Background.png');
 }
@@ -457,6 +463,8 @@ body {
   background-color: white;
   border-radius: 0.8rem;
   padding: 1.5rem 1.6rem;
+
+  resize: vertical;
 }
 
 .prelanzamiento__input::placeholder {
