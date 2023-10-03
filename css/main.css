@@ -439,4 +439,54 @@ body {
   }
 }
 
+.bg {
+  background: url('../img/Background.png');
+}
+
+.prelanzamiento__label {
+  font-size: 1.4rem;
+}
+
+.prelanzamiento__input {
+  display: block;
+  width: 100%;
+  font-size: 1.4rem;
+
+  border: 1px solid #d1d1d6;
+
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 1.5rem 1.6rem;
+}
+
+.prelanzamiento__input::placeholder {
+  color: #989898;
+  font-size: 1.4rem;
+}
+
+.prelanzamiento__input:focus {
+  outline-color: #1d4e88;
+}
+
+.prelanzamiento__checkbox {
+  accent-color: #1d4e88;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.button-submit {
+  border-radius: 3rem;
+  border: none;
+  background: #407bbf;
+  text-transform: capitalize;
+}
+
+.prelanzamiento__logo {
+  max-width: 30rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
 /*# sourceMappingURL=main.css.map */
